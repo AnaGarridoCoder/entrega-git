@@ -1,0 +1,282 @@
+body {
+    height: 100vh;
+    width: 100vh;
+}
+
+.box-container {
+    position:absolute;
+    height: 500px;
+    width: 500px;
+}
+#nombretitular{
+    position: relative;
+    left: 200px;
+    font-size: 60px;
+    text-align:center;
+    color: rgb(119, 15, 116);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-emphasis-color:blueviolet;
+    font-weight:900; 
+}
+
+.circular--square {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    border-radius: 20%;
+    background-size: 100% auto;
+}
+.green-box {
+    background: rgb(76,249,162);
+    background: linear-gradient(0deg, rgba(76,249,162,1) 0%, rgba(19,134,88,1) 74%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height:1200px ;
+    width: 1000px;
+    font-size: 50px;
+    text-align:center;
+    color: rgb(42, 179, 133);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-emphasis-color:rgb(24, 133, 102) ;
+    font-weight:900;
+}
+.icono-link {
+    background-image: url(./icons8-linkedin-circled-50.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    height: 30px;
+    width: 30px;
+}
+.icono-link2{
+    background-image: url(./icons8-smartphone-50.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 35px;
+    width: 35px;
+}
+.icono-link3{
+    background-image: url(./icons8-composing-mail-50.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 80px;
+    left: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.contact-box {
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px ;
+    background: (#4cf9a2);
+    left: 610px;
+    top: 120px;
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    color: rgb(33, 203, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; 
+    text-emphasis-color:rgb(16, 106, 73);
+    font-weight:900;
+}
+
+
+.contact2-box {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px  ;
+    background: rgba(104, 19, 183, 0);
+    top: 230px;
+    left: 480px;
+    color: rgb(172, 108, 232);
+    height: 120px;
+    width: 440px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:start;
+    font-weight:900;
+}
+
+.education-box{
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px  ;
+    color: rgb(52, 176, 129);
+    top: 420px;
+    left: 70px;
+    height:50px ;
+    width: 250px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+
+.education2-box {
+    background-color:rgba(104, 19, 183, 0);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 500px;
+    left: 70px;
+    height:320px ;
+    width: 250px;
+    font-size: 22px;
+    color: rgb(101, 56, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:left; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+.expertise-box {
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 420px;
+    left: 370px;
+    height:50px ;
+    width: 250px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+
+.expertise2-box {
+    background-color:rgba(104, 19, 183, 0);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 500px;
+    left: 370px;
+    height:320px ;
+    width: 250px;
+    font-weight:900;
+    font-size: 22px;
+    color: rgb(101, 56, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:left; text-emphasis-color:blueviolet ; text-size-adjust: center;
+}
+
+.languages-box {
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px; 
+    top: 420px;
+    left: 670px;
+    height:50px ;
+    width: 250px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+.languages2-box {
+    background-color:rgba(104, 19, 183, 0);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px  ;
+    top: 500px;
+    left: 670px;
+    height:320px ;
+    width: 250px;
+    font-size: 22px;
+    color: rgb(101, 56, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:left; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+
+.softskills-box {
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 850px;
+    left: 60px;
+    height:50px ;
+    width: 400px;
+    font-size: 45px;
+    color: rgb(52, 176, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+.softskills2-box {
+    background-color:rgba(64, 14, 111, 0);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 920px;
+    left: 60px;
+    height:260px ;
+    width: 400px;
+    columns: 2;
+    font-size: 23px;
+    color: rgb(101, 56, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:left; 
+    text-emphasis-color:blueviolet; 
+    text-size-adjust: right;
+    font-weight:900;
+}
+
+.experience-box {
+    background: rgb(161,21,212);
+    background: linear-gradient(0deg, rgba(161,21,212,1) 27%, rgba(70,10,89,1) 80%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    top: 850px;
+    left: 520px;
+    color: rgb(52, 176, 129);
+    height: 50px ;
+    width: 400px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:center; text-emphasis-color:blueviolet ; text-size-adjust: center;
+    font-weight:900;
+}
+
+.experience2-box {
+    background-color: rgba(64, 14, 111, 0);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px  ;
+    background: rgba(104, 19, 183, 0);
+    top: 920px;
+    left: 520px;
+    height:260px ;
+    width: 400px;
+    columns: 1;
+    font-size: 24px;
+    color: rgb(101, 56, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif; 
+    text-align:left; 
+    text-emphasis-color:blueviolet ; 
+    text-size-adjust: center;
+    font-weight:900;
+}
+
+
